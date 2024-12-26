@@ -46,3 +46,7 @@ a:hover{
 .surface-color{
     background-color: var(--surface-color);
 }
+
+.corzinha{
+    color: #175EA8;
+}
