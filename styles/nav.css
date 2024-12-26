@@ -1,0 +1,30 @@
+@import url(global.css);
+#logo{
+    font-family: var(--logo-font);
+    text-decoration: none;
+    color: var(--brand-color);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1.5rem;
+}
+
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-block: 0.5rem;
+    gap: 1.25rem;
+}
+
+#perfil{
+    width: 2.5rem;
+    height: 2.5rem;
+}
