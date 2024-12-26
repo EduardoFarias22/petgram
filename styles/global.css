@@ -12,8 +12,16 @@
     --skeleton-color:#DCDCDC;
     --text-color-primary:#464545;
     --text-color-secondary:#1D1D1D;
+
+    --font-family: "Roboto", serif;
+    --logo-font:"Poppins", serif;
+    --text-lg:bold 2rem/125% var(--font-family);
+    --text:1rem/150% var(--font-family);
+    --text-md:0.875rem/175% var(--font-family) ;
+    --text-sm:0.75rem/175% var(--font-family);
 }
 
 body{
     color: var(--text-color-primary);
+    font: var(--text-lg);
 }
