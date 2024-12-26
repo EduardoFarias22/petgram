@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --brand-color: #175EA8;
+    --shape-trasparency:#ffffff96;
+    --backgorund-color:#EFEFEF;
+    --surface-color:#E8E8E8;
+    --skeleton-color:#DCDCDC;
+    --text-color-primary:#464545;
+    --text-color-secondary:#1D1D1D;
+}
+
+body{
+    color: var(--text-color-primary);
+}
